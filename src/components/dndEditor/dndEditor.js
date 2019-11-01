@@ -1,3 +1,4 @@
+// files in context/dnd editor are placeholders
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '@atlaskit/css-reset';
@@ -14,7 +15,7 @@ const Container = styled.div`
   display: flex;
 `;
 
-export default class App extends React.Component {
+export default class dndEditor extends React.Component {
   state = initialData;
 
   onDragEnd = result => {
