@@ -3,3 +3,35 @@ h3 {
   font-size: small;
   margin: 1px;
 }
+
+
+p{
+  margin:0px;
+  vertical-align: top;
+  color:white;
+}
+
+
+.linkbox{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:500px;
+  align-items::baseline;
+  padding:10px;
+  background:blue;
+
+}
+
+.linkbox_reorder{
+  
+}
+.linkbox_link{
+flex-grow:2;
+}
+
+.linkbox_tools{
+  display:flex;
+  flex-direction:row;
+ 
+}

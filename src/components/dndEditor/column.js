@@ -32,7 +32,7 @@ export default class Column extends React.Component {
         <Title>{this.props.column.title}</Title>
         <Droppable droppableId={this.props.column.id}>
           {(provided, snapshot) => (
-            <TaskList
+            <TaskList className="collection col"
               ref={provided.innerRef}
               {...provided.droppableProps}
               isDraggingOver={snapshot.isDraggingOver}>
