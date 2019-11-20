@@ -11,6 +11,21 @@ import initialData from './initialData';
 import Column from './column';
 
 
+//      CURRENT CLASS COMPONENT
+//  1.IMPORTS
+//  2.DEFINE CLASS
+//  3.DEFINE STATE 
+//  4.onDragEnd
+//  5. render output
+
+
+//      FUNCTIONAL COMPONENT
+//  1. IMPORTS
+//  2. DEFINE FUNCTION
+//  3. useContext
+//  4. ...
+
+
 const Container = styled.div`
   display: flex;
 `;
