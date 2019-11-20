@@ -101,11 +101,11 @@ export default class dndEditor extends React.Component {
         <DragDropContext onDragEnd={this.onDragEnd}>
           {this.state.columnOrder.map(columnId => {
             const column = this.state.columns[columnId];
-            const tasks = column.taskIds.map(
-              taskId => this.state.tasks[taskId]
+            const cards = column.taskIds.map(
+              taskId => this.state.cards[taskId]
             );
 
-            return <Column key={column.id} column={column} tasks={tasks} />;
+            return <Column key={column.id} column={column} tasks={cards} />;
           })}
         </DragDropContext>
 

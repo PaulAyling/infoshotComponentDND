@@ -1,5 +1,5 @@
 const initialData = {
-  tasks: {
+  cards: {
     'task-1': {
       id: 'task-1',
       content: 'Take out the trash and another thing also'

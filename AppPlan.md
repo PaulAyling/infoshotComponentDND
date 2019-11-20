@@ -1,7 +1,6 @@
 FRONT END APP
 
 TODOS
-0.1 clean up code
 
 1. Modify InitialData.js so that it is compatible with the mongoDb dataset
 
@@ -13,7 +12,12 @@ TODOS
 
 5. Update Infoshot card context to match new Dnd Context
 
-6. THIS SHOULD WORK
+6. Consolidate infoshot data context to three contexts. 
+    1. Alerts     {as is}
+    2. Auth & Users {as is}
+    3. Documents    {Contains user, card, document} {everything to dispay an infoshot}
+
+7. Create a new route with an automated routing assignment to generate URLs for embed
 
 DRAG N DROP COMPONENT
 

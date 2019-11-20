@@ -1,0 +1,32 @@
+.users  
+{
+  _id
+  docIds:[]
+  name:
+  email:
+  password:
+  date
+}
+
+.document
+{
+  _id
+  curatorIds
+  cards:[]
+  title:
+  summary:
+  imageURL:
+  template:
+  creatorId
+}
+
+.card
+{
+  _id
+  curatorIds:[]
+  documentId:678678
+  label:""
+  linkUrl:""
+  summary:""
+  creatorId:43254
+}
